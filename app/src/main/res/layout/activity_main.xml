@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/record"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:text="点我录音"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:background="#4FBFCD"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/yuansheng"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="原声"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:background="#4FBFCD"
+                />
+
+            <TextView
+                android:id="@+id/luoli"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:text="萝莉"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:background="#D624E1"
+                />
+            <TextView
+                android:id="@+id/dashu"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:text="大叔"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:background="#453B3A"
+                />
+        </LinearLayout>
+         <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <TextView
+                android:id="@+id/jingsong"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="惊悚"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:background="#010505"
+                />
+
+            <TextView
+                android:id="@+id/gaoguai"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:text="搞怪"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:background="#E6B72A"
+                />
+            <TextView
+                android:id="@+id/kongling"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:text="空灵"
+                android:gravity="center"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:background="#237A5F"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
